@@ -4,20 +4,73 @@
     box-sizing: border-box;
 }
 
-.pt-10{
-    padding-top: 10rem;
+.pt-16{
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 1rem;
+    padding-top: 19rem;
+}
+
+img{
+    width:100%;
 }
 
 /* header */
-header{
-    height: 2rem;
+header svg{
+    height: 73px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 
 /* nav */
+.my-sticky{
+    position: sticky;
+    top: 0;
+    padding: 0.1rem;
+}
 
+nav svg{
+    width: 0.75rem;
+}
+
+.lens {
+    width: 1.7rem;
+    height: 2rem;
+}
 
 /* jumbotron */
 .jumbo{
-    height: 420px;
-    background-color: red;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/* section 1, game list */
+.border-rad{
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+
+.bord-select{
+    border-radius: 20px;
+    border: 2px solid #0070d1;
+}
+
+/* section 2, playstation 5 */
+.bord-bl{
+    border-bottom: 3px solid #0070d1;
+
+}
+
+/* section 3, it takes two */
+.it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.it-takes-two button{
+    max-width:130px ;
 }
