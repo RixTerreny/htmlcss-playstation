@@ -46,6 +46,10 @@ nav svg{
     background-position: 50%;
 }
 
+.returnal{
+    margin-left: -6px;
+}
+
 /* section 1, game list */
 .border-rad{
     border-radius: 20px;
@@ -71,6 +75,32 @@ nav svg{
     background-position: 50%;
 }
 
-.it-takes-two button{
-    max-width:130px ;
+/* section 4, new release */
+.bg-dark-grey{
+    background-color: #1f1f1f;
+}
+
+/* section 5, explore PS4 */
+
+/* section 6, playstation plus */
+.bg-grey{
+    background-color: #bebcbb;
+}
+
+.resize{
+    height: 12%;
+    width:60%;
+}
+
+/* section 7, playstore's new discount */
+
+/* section 8, playstation now */
+.bg-blue{
+    background-color: #161c3b;
+}
+
+/* section 9, social media */
+.px-9{
+    max-width: 850px;
+    margin: auto;
 }
