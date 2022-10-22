@@ -104,3 +104,22 @@ nav svg{
     max-width: 850px;
     margin: auto;
 }
+
+/* footer */
+footer{
+    background-color: #00439c;
+}
+
+footer li {
+    list-style: none;
+    color: white;
+}
+
+.mid-svg{
+    width: 10rem;
+}
+
+.small-svg{
+    width: 1rem;
+    margin-top: -3.5px;
+}
